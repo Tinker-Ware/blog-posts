@@ -18,7 +18,6 @@ We are using [React.js](https://facebook.github.io/react/index.html), a JavaScri
 * Uni-directional data flow.
 * The ability of return an html component from a function.
 * The child notify its parent of a state change with a callback pass as one of its properties.
-* (PENDANT)
 
 This is an component example:
 
