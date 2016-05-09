@@ -7,7 +7,7 @@ We are using [React.js](https://facebook.github.io/react/index.html), a JavaScri
 
 **From my point of view, React has the following advantages:**
 
-* Good if you what to build large applications with data that changes over time.
+* Good if you want to build large applications with data that changes over time.
 * **Virtual DOM**. React abstracts away the DOM (a programming API for HTML and XML documents), you diff that with the actual DOM, and only update what changed. This makes updates faster.
 * Perfect to render UI components.
 * Offers incredible performance and server side rendering.
@@ -16,8 +16,7 @@ We are using [React.js](https://facebook.github.io/react/index.html), a JavaScri
 * React.js is declarative, which means that React conceptually hits the “refresh” button any time data changes.
 * You can use React.js seamlessly with Node.js or AngularJS.
 * Uni-directional data flow.
-* The ability of return an html component from a function.
-* The child notify its parent of a state change with a callback pass as one of its properties.
+* It has the ability of returning an HTML component from a function.
 
 This is an component example:
 
@@ -33,7 +32,7 @@ This is an component example:
 * Use the React and Redux dev tools.
 * Write small components.
 
-**Here some projects using [React.js](https://facebook.github.io/react/index.html):**
+**Here are some project using React: [React.js](https://facebook.github.io/react/index.html):**
 
 * Netflix.
 * AdRoll.
