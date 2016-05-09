@@ -1,5 +1,5 @@
 ---
-title: What is React.js and why use Read.js?
+title: What is React.js and why we use it?
 tags: Frontend, React.js, Redux
 ---
 
