@@ -1,6 +1,6 @@
 ---
-title: What is React.js and why we use it?
-tags: Frontend, React.js, Redux
+title: What about Tinkerware?
+tags: tinkerware, easy deploy, about
 ---
 
 What about Tinkerware?
