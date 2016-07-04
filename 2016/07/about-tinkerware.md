@@ -24,15 +24,15 @@ Nevertheless, to accomplish this, at least the following tasks are needed:
 
 ...a lot of times it's hard to find the time to do all this.
 
-This "small" step is the difference between (hopefully) *creating a great
-service used by a lot of people* and  - forgetting about that cool small project
+This "small" step is the difference between (hopefully) **creating a great
+service used by a lot of people** and  - forgetting about that cool small project
 you once did in the past...
 
 Other times, paying third parties to perform all these tasks is not an option
 since it gets expensive, so why not making these configurations easy for you
 and let you handle your own server with freedom with the posibility of growth?
 
-*You can achieve this* with *environments*.
+**You can achieve this** with **environments**.
 That project you created in your computer is your developent stage and we can
 sync it to your production server replicating the environment. That way, any time
 you want to add more functionality, it won't be a problem. The deploy will
