@@ -10,7 +10,8 @@ At tinkerware we look to write posts eventually to keep an update about
 the company and how it is growing. So what about it?
 
 Anyone who writes code, does it for a reason: to use the code.
-If it is shared or used privately, you surely want it to be available at 
+
+If it is shared or used privately, you surely want it to be available at
 any time.
 
 Nevertheless, to accomplish this, at least the following tasks are needed:
@@ -33,6 +34,7 @@ since it gets expensive, so why not making these configurations easy for you
 and let you handle your own server with freedom with the posibility of growth?
 
 **You can achieve this** with **environments**.
+
 That project you created in your computer is your developent stage and we can
 sync it to your production server replicating the environment. That way, any time
 you want to add more functionality, it won't be a problem. The deploy will
@@ -69,6 +71,7 @@ Some of the modules to complement your server would include:
 
 We're cururrently developing the base of all this functionality but we're
 glad to say that it is coming soon.
+
 All of this gets automated for your easier management (and ours too), that's
 why we will be adding more modules, features and cool stuff depending on how
 the users guide us.
