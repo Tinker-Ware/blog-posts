@@ -24,10 +24,6 @@ Nevertheless, to accomplish this, at least the following tasks are needed:
 
 ...a lot of times it's hard to find the time to do all this.
 
-## choose between
-## server providers, configuring your server, deploying your code and keeping
-## an eye on your server to keep your stuff available.
-
 This "small" step is the difference between (hopefully) *creating a great
 service used by a lot of people* and  - forgetting about that cool small project
 you once did in the past...
