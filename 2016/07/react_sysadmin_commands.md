@@ -33,9 +33,9 @@ Directories to use in the exercise:
 ___
 
 
-|**- ssh**| Logging into remote machines|
-|-|-|
-|Parameters:|user, ip|
+**- ssh**| Logging into remote machines
+---------|----------------
+Parameters:|user, ip
 
 Example:
 ```
@@ -47,9 +47,10 @@ user:
 ip:
   - *192.168.33.10*
 ___
-|**- su**|  Login as user |
-|-|-|
-|Parameters:| User name|
+
+**- su**|  Login as user
+---------|-------
+Parameters:| User name
 
 Example:
 ```
