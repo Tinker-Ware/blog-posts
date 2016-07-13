@@ -1,0 +1,3 @@
+# GLOSARY
+
+ssh - 
