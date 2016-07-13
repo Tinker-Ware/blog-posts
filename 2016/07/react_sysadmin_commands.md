@@ -15,7 +15,8 @@ vagrant@tinkerware:~$ cd /home/user/pictures
 Directories to use in the exercise:
   - *~/Documents/tinkerware/deploy-exercise* #in host
   - */opt/tinker/shared_files/tinkerware_react*     #in vagrant
-___
+________
+
 
 **- mkdir** |  Create directory
 ------------|-------
@@ -27,7 +28,9 @@ vagrant@tinkerware:~$ mkdir /home/user/Documents/newFolder
 ```
 Directories to use in the exercise:
   - */opt/tinker/shared_files/tinkerware_react*
- ___
+__________
+
+
 |**- ssh**| Logging into remote machines|
 |-|-|
 |Parameters:|user, ip|
