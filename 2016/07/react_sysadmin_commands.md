@@ -18,7 +18,7 @@ Directories to use in the exercise:
 ___
 
 **- mkdir** |  Create directory
--|-
+------------|-------
 Parameters:| directory name
 
 Example:
