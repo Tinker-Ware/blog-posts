@@ -17,7 +17,7 @@ Directories to use in the exercise:
   - */opt/tinker/shared_files/tinkerware_react*     #in vagrant
 ___
 
-**- mkdir**|  Create directory
+**- mkdir** |  Create directory
 -|-
 Parameters:| directory name
 
