@@ -3,9 +3,9 @@ Cheat sheet for Tinkerware exercise
 
 ## NAVIGATE
 
-| **- cd** | Go to a direcotry path |
-|-|-|
-|Parameters:|Path|
+ **- cd** | Go to a direcotry path 
+----------|----------
+Parameters:|Path
 
 Example:
 ```
