@@ -3,7 +3,7 @@ Cheat sheet for Tinkerware exercise
 
 ## NAVIGATE
 
- **- cd** | Go to a direcotry path 
+ **- cd** | Go to a direcotry path
 ----------|----------
 Parameters:|Path
 
@@ -16,9 +16,10 @@ Directories to use in the exercise:
   - *~/Documents/tinkerware/deploy-exercise* #in host
   - */opt/tinker/shared_files/tinkerware_react*     #in vagrant
 ___
-|**- mkdir**|  Create directory |
-|-|-|
-|Parameters:| directory name|
+
+**- mkdir**|  Create directory
+-|-
+Parameters:| directory name
 
 Example:
 ```
