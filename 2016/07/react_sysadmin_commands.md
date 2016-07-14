@@ -46,7 +46,11 @@ user:
   - *intern1*
 ip:
   - *192.168.33.10*
+
+
 ___
+
+
 
 **- su**|  Login as user
 ---------|-------
@@ -59,14 +63,15 @@ jhon@tinkerware:~$
 ```
 User this exercise:
   - *intern1*
+
 ___
 
 
 # CREATE USER AND GROUP
 
-|**- groupadd**|  Create new group |
-|-|-|
-|Parameters:| Group name|
+**- groupadd** |  Create new group
+---------------|-----------
+Parameters:| Group name
 
 Example:
 ```
@@ -74,6 +79,7 @@ vagrant@tinkerware:~$ groupadd newgroup
 ```
 To use in this exercise:
   - *sysadmin*
+
 ___
 
 |**- useradd**|  Create new user |
