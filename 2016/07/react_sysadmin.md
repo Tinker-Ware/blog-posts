@@ -34,7 +34,7 @@ your machine.
 Welcome to your new fresh server.
 
 If your want to know more details about Vagrant, you can visit
-the [get started page](https://www.vagrantup.com/docs/getting-started/)
+the [get started page](https://a.fsdn.com/allura/p/cmdrevd/icon)
 
 <!-- This will create a `Vagrantfile` wich contains the configurations for your local machine. -->
 <!-- In this file, several options can be configured. Such as network configuration. -->
