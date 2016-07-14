@@ -53,7 +53,7 @@ The first thing a server needs is a group of users. You don't want everyone
 going all over your servers, accessing everything, wrecking stuff and leaving
 your servers vulnerable!
 
-So first thing: Create a new user. Of course a user must belong to a group.
+![](http://www.mariadcampbell.com/wp-content/uploads/2015/06/terminal.png =250x) So first thing: Create a new user. Of course a user must belong to a group.
 Go ahead and create a user called `intern1` that belongs to the group `sysadmin`
 
 Now it is time to improve the security of the people accesing our servers.
