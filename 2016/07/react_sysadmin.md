@@ -1,5 +1,22 @@
 # How to install React and Maintain it.
 
+## Instructions
+
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)
+This Icon means that you need to run a command to accomplish the described task!
+
+Every step is described, but you have to use the [Cheat sheet](https://github.com/Tinker-Ware/blog-posts/blob/summerschool/2016/07/react_sysadmin_commands.md)
+to find the command that best suits for the task you want to accomplish.
+
+Feel free to ask your mentor anything.
+
+This is a thinking exercise. Think, then act.
+
+Read carefully this manual, think and then apply with commands.
+
+Make sure you understand the task. That will make everything easier!
+
+Good luck.
 
 
 ## VAGRANT CREATION
@@ -42,7 +59,7 @@ the [get started page](https://www.vagrantup.com/docs/getting-started/)
 
 ## SERVER CONFIGURATION
 
-Log into your new vagrant machine. Use `vagrant ssh`.
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Log into your new vagrant machine. Use `vagrant ssh`.
 You should see something like this:
 
 `vagrant@tinkerware:~$ `
@@ -62,7 +79,7 @@ For this, we need to update the ssh deamon to be more secure.
 #### Edit SSH DEAMON
 Edit `/etc/ssh/sshd_config`
 
-Add/edit the following lines:
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Add/edit the following lines:
 ```
 PermitRootLogin no
 PasswordAuthentication yes
@@ -70,17 +87,17 @@ Protocol 2
 AllowUsers ${USER}
 ```
 
-Great. now create a secure password for new user and login to the new user
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Great. now create a secure password for new user and login to the new user
 account.
 
-Now that everything is set, we're ready to restart the ssh deamon.
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Now that everything is set, we're ready to restart the ssh deamon.
 `sudo service ssh restart`
 
 As a good practice, one should normally set up the firewall as well, and
 some other tasks in order to have a healthy and secure server, but we'll
 leave that for another ocasion. Let's move to a deploy.
 
-Now we need to install dependencies that our project needs, and some others
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Now we need to install dependencies that our project needs, and some others
 to download and manage files that are online.
 `curl` is a great tool to download online resources.
 
@@ -91,21 +108,21 @@ Node.js uses an event-driven, non-blocking I/O model that makes it lightweight
 and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of
 open source libraries in the world.
 
-In the npm documentation we can find te requirements to its installation.
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)In the npm documentation we can find te requirements to its installation.
 In order for some npm packages to work (such as those that require building
 from source), you will need to install the build-essentials package
 
-Add repository and install its signing key
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Add repository and install its signing key
 curl -sL https://deb.nodesource.com/setup_4.x | bash -
 
-Now, we have a serer ready to host a React project.
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Now, we have a serer ready to host a React project.
 Let's get that project to run.
 
-Now that it's there we need to run the service to listen to requests
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Now that it's there, we need to run the service to listen to requests
 and show our project to the world. The necessary scripts can be found in
 https://github.com/reactjs/react-tutorial.git
 
-Now that we have all those files, in the README file are the steps
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Now that we have all those files, in the README file are the steps
 necessary to run the service. You can run it with node, since we prepared
 the server for that.
 
@@ -124,7 +141,7 @@ First of all we need to fetch it from the repository on github.
 But we can't clone it just anywhere.
 The correct Path for this kind of projects would be `/opt`
 
-Lets create a folder there called `tinkerware_react` and
+![](https://a.fsdn.com/allura/p/cmdrevd/icon)Lets create a folder there called `tinkerware_react` and
 place the react project inside that path.
 
 
