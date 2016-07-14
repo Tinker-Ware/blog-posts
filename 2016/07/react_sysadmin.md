@@ -34,7 +34,7 @@ your machine.
 Welcome to your new fresh server.
 
 If your want to know more details about Vagrant, you can visit
-the [get started page](https://a.fsdn.com/allura/p/cmdrevd/icon)
+the [get started page](https://www.vagrantup.com/docs/getting-started/)
 
 <!-- This will create a `Vagrantfile` wich contains the configurations for your local machine. -->
 <!-- In this file, several options can be configured. Such as network configuration. -->
@@ -53,7 +53,7 @@ The first thing a server needs is a group of users. You don't want everyone
 going all over your servers, accessing everything, wrecking stuff and leaving
 your servers vulnerable!
 
-![](http://www.mariadcampbell.com/wp-content/uploads/2015/06/terminal.png) So first thing: Create a new user. Of course a user must belong to a group.
+![](https://a.fsdn.com/allura/p/cmdrevd/icon) So first thing: Create a new user. Of course a user must belong to a group.
 Go ahead and create a user called `intern1` that belongs to the group `sysadmin`
 
 Now it is time to improve the security of the people accesing our servers.
