@@ -42,8 +42,10 @@ Example:
 vagrant@tinkerware:~$ ssh john@192.168.10.10
 ```
 To use in the exercise:
+
 user:
   - *intern1*
+  
 ip:
   - *192.168.33.10*
 
