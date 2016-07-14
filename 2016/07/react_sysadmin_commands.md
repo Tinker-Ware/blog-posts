@@ -83,7 +83,7 @@ To use in this exercise:
 ___
 
 **- useradd**|  Create new user
--|-
+-------|-----
 Parameters:|
 -s|The name of the user's login shell.
 -m|Create the user's home directory if it does not exist.
@@ -100,7 +100,7 @@ vagrant@tinkerware:~$ useradd -s /bin/bash -m -d /home/john -g developer -G sudo
 ___
 
 **- passwd**| Define Password for new user
--|-
+--------|-------
 Parameters:| User name
 
 Example:
@@ -114,7 +114,7 @@ ___
 # INSTALL PACKAGES:
 
 **- curl**| Transfer a URL
--|-
+---------|---------
 Parameters:| url
 -s| Silent. Don't show progress metter or error messages.
 -L| Remake te request if the server has moved to a different location.
@@ -136,7 +136,7 @@ ___
 
 
 **- apt**| Command-line tool to handle packages.
--|-
+---------|--------
 Parameters:| package to install
 
 Example:
@@ -167,7 +167,7 @@ ___
 
 
 **- npm**| Package manager for JavaScript
--|-
+-------|--------
 Parameters:| package to install
 
 Example:
@@ -188,7 +188,7 @@ ___
 # REPOSITORIES
 
 **-git**| Revision control system command line tool.
--|-
+---------|----------
 Parameters:| url, path(optional)
 clone | clone project url
 checkout | move to a version of the code.
@@ -207,7 +207,7 @@ url:
 # SERVICES
 
 **-service**| Run a System V init script
--|-
+--------------|-----------
 Parameters:| service name
 restart |
 start |
