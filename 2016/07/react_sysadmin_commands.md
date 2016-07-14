@@ -45,7 +45,7 @@ To use in the exercise:
 
 user:
   - *intern1*
-  
+
 ip:
   - *192.168.33.10*
 
@@ -95,7 +95,7 @@ Parameters:|
 
 Example:
 
-`useradd -s /bin/bash -m -d /home/${USER} -g ${GROUP} -G ${EXTRA_GROUPS} ${USER} `
+`vagrant@tinkerware:~$ useradd -s /bin/bash -m -d /home/${USER} -g ${GROUP} -G ${EXTRA_GROUPS} ${USER} `
 ```
 vagrant@tinkerware:~$ useradd -s /bin/bash -m -d /home/john -g developer -G sudo john 
 ```
@@ -124,7 +124,7 @@ Parameters:| url
 Example:
 
 ```
-Run downloaded script
+# Run downloaded script
 vagrant@tinkerware:~$ curl -sL https://raw.githubusercontent.com/roman-huliak/hello-world-bash/master/app.sh  | bash -
 ```
 
@@ -218,7 +218,7 @@ stop |
 ## Restart ssh service
 Example:
 ```
-sudo service nginx restart
+vagrant@tinkerware:~$ sudo service nginx restart
 ```
 
 Services to use this exercise:
@@ -227,7 +227,7 @@ Services to use this exercise:
 ## Run React service
 Example:
 ```
-node server.js
+vagrant@tinkerware:~$ node server.js
 ```
 
 ___
@@ -238,8 +238,11 @@ ___
 # Files to change
 
 Files to use this exercise:
+
 `/etc/ssh/sshd_config`
+
 `/etc/sudoers` - Command: visudo
+
 `HOME/.ssh/authorized_keys`
 
 
