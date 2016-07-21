@@ -2,7 +2,7 @@
 
 ## Instructions
 
-![](https://a.fsdn.com/allura/p/cmdrevd/icon)
+![#](https://a.fsdn.com/allura/p/cmdrevd/icon)
 This Icon means that you need to run a command to accomplish the described task!
 
 Every step is described, but you have to use the [Cheat sheet](https://github.com/Tinker-Ware/blog-posts/blob/summerschool/2016/07/react_sysadmin_commands.md)
