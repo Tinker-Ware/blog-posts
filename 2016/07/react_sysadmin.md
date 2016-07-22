@@ -42,11 +42,24 @@ Good luck.
 [For Mac](https://releases.hashicorp.com/vagrant/1.8.4/vagrant_1.8.4.dmg)
 
 
-_Vagrantfile and virtual machine must be ready for their use in
-~/Documents/tinkerware/deploy-exercise_
+Create a Folder to keep the files of this exercise.
+Recommended: `~/Documents/tinkerware/deploy-exercise`
 
-Go to `~/Documents/tinkerware/deploy-exercise` and run `vagrant up` to start
-your machine.
+If you have git installed on your computer. Go inside your `deploy-exercise` folder
+and clone the following repo: `https://github.com/Tinker-Ware/summerschool-infrastructure`
+
+If you don't know what is git. Download the following file in your `deploy-exercise` folder:
+`https://github.com/Tinker-Ware/summerschool-infrastructure/archive/master.zip`.
+
+**Start using your Command line terminal from here.**
+
+![](https://a.fsdn.com/allura/p/cmdrevd/icon) Go to the folder `deploy-exercise` and run `vagrant up` to start your machine.
+
+Once it's done, run:
+
+```
+vagrant ssh
+```
 
 Welcome to your new fresh server.
 
@@ -59,10 +72,11 @@ the [get started page](https://www.vagrantup.com/docs/getting-started/)
 
 ## SERVER CONFIGURATION
 
-![](https://a.fsdn.com/allura/p/cmdrevd/icon)Log into your new vagrant machine. Use `vagrant ssh`.
-You should see something like this:
+You should see something like this: (After `vagrant ssh`)
 
-`vagrant@tinkerware:~$ `
+```
+vagrant@tinkerware:~$
+```
 
 Now you're ready to start making some noise there.
 
@@ -78,6 +92,8 @@ For this, we need to update the ssh deamon to be more secure.
 
 #### Edit SSH DEAMON
 Edit `/etc/ssh/sshd_config`
+You can use any editor you want. If you don't know which one to use, just run:
+`sudo nano /etc/ssh/sshd_config`
 
 ![](https://a.fsdn.com/allura/p/cmdrevd/icon)Add/edit the following lines:
 ```
@@ -110,7 +126,7 @@ open source libraries in the world.
 
 ![](https://a.fsdn.com/allura/p/cmdrevd/icon)In the npm documentation we can find te requirements to its installation.
 In order for some npm packages to work (such as those that require building
-from source), you will need to install the build-essentials package
+from source), you will need to install the `build-essentials` package
 
 ![](https://a.fsdn.com/allura/p/cmdrevd/icon)Add repository and install its signing key
 curl -sL https://deb.nodesource.com/setup_4.x | bash -
