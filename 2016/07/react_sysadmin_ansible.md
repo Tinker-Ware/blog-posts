@@ -8,13 +8,15 @@ below the comment line marking what to do there.
 
 <!-- `cd /opt/tinker/shared_files/tinkerware_react/react-tutorial/` -->
 
-Clone the repository for this exercise that contains the ansible code
-and more things that are needed for the exercise.
+If you think you have a mess in your `deploy-exercise` folder,
+delete it, create it again and clone again:
 
-`git clone ;fasdlk;gfj-fl;dskh;`
+https://github.com/Tinker-Ware/summerschool-infrastructure.git
 
--- up to here the exercise should be almost done, just with a few empty
-blocks to fill with the correct ansible automation --
+and run:
+```
+git checkout automation
+```
 
 edit to `provisioning/roles/react_page/tasks/main.yml`
 
@@ -32,16 +34,17 @@ Basically add line like the following in the correct place.
 
 `- user: name=johnd comment="John Doe" group=admin`
 
-<!-- More missing commands for automate the missing parts -->
+Here are the links of other modules you will need. Check them out.
+http://docs.ansible.com/ansible/group_module.html
 
+http://docs.ansible.com/ansible/apt_module.html
 
-At the end you should have a file looking like this:
+http://docs.ansible.com/ansible/git_module.html
 
-Ansible file to automate react.
 
 Now tell the vagrant machine to apply this role you created to your new node:
 
-edit `provisioning/tinkerware.yml` and in the roles part add:
+edit `provisioning/site.yml` and in the roles part add:
 - react
 
 Ready.
@@ -51,6 +54,16 @@ Now run
 
 See the magic working automagically.
 
-visit again 192.168.33.16:3000 and everything should be working fine.
+Inside the vagrant machine, take a look to the log file that will show the status
+of the react page.
+This can be done with:
+
+```
+tail -f /tmp/react.log
+```
+
+Once it's finished, visit again 192.168.33.16:3000 and everything should be working fine.
 
 Done.
+
+Easy right?
