@@ -159,7 +159,7 @@ package:
   - *build-essential*
   - *git*
   - *nodejs*
-  - *emacs*
+  - *emacs24-nox*
 
 
 ### Upgrade
