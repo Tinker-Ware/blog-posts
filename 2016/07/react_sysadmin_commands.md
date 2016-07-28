@@ -99,6 +99,11 @@ Example:
 ```
 vagrant@tinkerware:~$ useradd -s /bin/bash -m -d /home/john -g developer -G sudo john 
 ```
+
+To use in this exercise:
+  - *intern1*
+
+
 ___
 
 **- passwd**| Define Password for new user
