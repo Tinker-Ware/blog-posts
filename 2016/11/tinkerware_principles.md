@@ -98,9 +98,4 @@ we will keep doing that. Community matters.
 "Nothing to hide, nothing to worry about" ... Lawsuits come anyways...
 
 
-
-References
-http://martinfowler.com/bliki/ImmutableServer.html
-http://martinfowler.com/bliki/PhoenixServer.html
-http://blogs.cisco.com/cloud/dont-fix-it-throw-it-away-disposable-infrastructure-oscon-2016
-http://martinfowler.com/articles/serverless.html
+@aalvz
