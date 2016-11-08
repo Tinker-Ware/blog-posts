@@ -17,27 +17,41 @@ the same input parameters and returns exactly the same with no additional effect
 
 #### How do we Achieve idempotence?
 
-    1. [Disposable Infrastructure](http://martinfowler.com/bliki/ImmutableServer.html)
+1. [Disposable Infrastructure](http://martinfowler.com/bliki/ImmutableServer.html)
+
+---
        - Don't fix it! Throw it away!! -
        Fixing broken things is one of the most time/money consuming tasks there
        exist in Software.
-    2. [Serverless Architecture](http://martinfowler.com/articles/serverless.html)
+
+2. [Serverless Architecture](http://martinfowler.com/articles/serverless.html)
+
+---
        - Don't worry that much about servers. Outsource those insfrastructure tasks.
        Run your systems on any server-
        Among the benefits we can mention: reduced operational and development costs,
        easier operational management, and reduced environmental impact.
-    3. [Phoenix Servers](http://martinfowler.com/bliki/PhoenixServer.html)
+
+3. [Phoenix Servers](http://martinfowler.com/bliki/PhoenixServer.html)
+
+---
        - A server should be like a phoenix, regularly rising from the ashes. -
        Why? It'd be awesome to have a completely inmutable server, but after a
        while of hard work, it's always healty to give that server a proper reset
        and make sure everything is set just as it should be. No more, no less.
-    4. Configuration Managers.
+
+4. Configuration Managers.
+
+---
        - We've been using tools such as Puppet or Ansible to improve idempotence -
        This brings also the cool fact of having **Executable Documentation**.
        Your coude, if well explained can work for both, working and documenting.
        With infrastructure is the same. We know what we have and what it's supposed
        to do.
-    5. Code Repositories.
+
+5. Code Repositories.
+
+---
        - To be able to control any version we have and apply it anytime -
        If you're reading this, you probably already know all the benefits of
        version control systems.
