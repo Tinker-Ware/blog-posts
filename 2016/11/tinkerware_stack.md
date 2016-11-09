@@ -12,7 +12,7 @@ and we work to keep everything as open as it gets.
 Frontend
 ---
 
-### React
+### [React](https://facebook.github.io/react/)
 
 ---
 
@@ -23,16 +23,17 @@ very robust Framework if used correctly.
 Backend
 ---
 
-### Elixir
+### [Elixir](http://elixir-lang.org/)
 
 ---
 
 Cool, huh? It is. The architectural characterstics that elixir brings to the game
 are just what we need to ensure we make things robust and trust worthy thanks to
-it's ease of use when programming and it's resilence.
+it's ease of use when programming, since its path leads to metaprogramming improving
+its resilence. Also, it comes with [Mix](http://elixir-lang.org/docs/stable/mix/Mix.html) wich makes projects managment easier.
 
 
-### GoLang
+### [GoLang](https://golang.org/)
 
 ---
 
@@ -46,7 +47,7 @@ Infrastructure
 We created a Microservices/RPC/Client-server architecture that we use to handle
 all the tasks our services does.
 
-### Ansible/Puppet
+### [Ansible](https://www.ansible.com/)/[Puppet](https://puppet.com/)
 
 ---
 
@@ -54,15 +55,16 @@ That's how we automate most of the tools we provide to be able to configure
 and manage servers at please. You'll be able to find these roles on our
 GitHub page. (Link at the beginning of the post)
 
-### Vagrant
+### [Vagrant](https://www.vagrantup.com/)
 
 ---
 
 That's how we are currently virtualizing our Development environment.
 To be sure to be working under the same characteristics as our QA/Prod
-environments and Integrate changes smoothly.
+environments and Integrate changes smoothly. We will implement containers
+soon for some special functionality we would like to add. [Docker](https://www.docker.com/) maybe?
 
-### Buildbot
+### [Buildbot](http://buildbot.net/)
 
 ---
 
@@ -74,7 +76,7 @@ built in the past.
 
 ---
 
-Mostly we use Digital Ocean and AmazonAWS. Why? Depending on the task they are
+Mostly we use [Digital Ocean](https://www.digitalocean.com/) and [AmazonAWS](https://aws.amazon.com/). Why? Depending on the task they are
 quite flexible for us, and of course, as any company, we pay attention to the
 prices as well.
 
