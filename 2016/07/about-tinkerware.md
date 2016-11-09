@@ -6,15 +6,9 @@ tags: tinkerware, easy deploy, about
 What about Tinkerware?
 ===
 
-At tinkerware we look to write posts eventually to keep an update about
-the company and how it is growing. So what about it?
-
 Anyone who writes code, does it for a reason: to use the code.
 
-If it is shared or used privately, you surely want it to be available at
-any time.
-
-Nevertheless, to accomplish this, at least the following tasks are needed:
+At least the following tasks are needed:
 
   - Choose between server providers
   - Configure your server
@@ -25,56 +19,63 @@ Nevertheless, to accomplish this, at least the following tasks are needed:
 
 ...a lot of times it's hard to find the time to do all this.
 
-This "small" step is the difference between (hopefully) **creating a great
-service used by a lot of people** and  - forgetting about that cool small project
-you once did in the past...
+These steps are the difference between **creating a great
+service used by a lot of people** and having a time bomb ticking . . . . .
 
-Other times, paying third parties to perform all these tasks is not an option
+Other times, having an expert to perform all these tasks is not an option
 since it gets expensive, so why not making these configurations easy for you
 and let you handle your own server with freedom with the posibility of growth?
 
-**You can achieve this** with **environments**.
+**You can achieve this** with **environments** and going more **Serverless**.
 
-That project you created in your computer is your developent stage and we can
-sync it to your production server replicating the environment. That way, any time
-you want to add more functionality, it won't be a problem. The deploy will
-be transparent and easy by then and you will have your own server at your
-disposal at any time if you need it.
+That project you created in your computer is your developent stage and it can
+be replicated with improvements to be the production server. That way, any time
+you want to add more functionality, it won't be a problem.
+
+**The deploy won't even be a deploy**. It'd be a transparent and easy replication
+by then and you will have your own server at your disposal at any time if you need it.
 
 But how does it work?
 ---
 
-You'd basically do the following:
+You'd basically do 4 things:
 
-  - Log in with your account.
-  - Select what you want to be installed in your server.
-  - Upload to the server the code you want to deploy there.
-  - Add your ssh-keys to access.
-  - Enjoy! Your code should be working now.
+  1. Log in with your account.
+  2. Select what you want to be installed in your server/project.
+  3. Select existing code if any.
+  4. Enjoy! Your code should be working now.
 
 After that you'll get:
 
-  - A development environment to work with. (Using [Vagrant](www.vagrant.com))
-    ( Your vagrant will be just as your production server to avoid compatibility issues)
+  - A development environment to work with. (Using [Vagrant](www.vagrant.com)) Based on your selection.
   - Access to your server.
-  - Access to a dashboard to make all the steps easily.
-  - A full list of your projects to manage.
-  - Access to modules to complement your server.
+  - Access to a dashboard to make all the steps easily and mange your projects.
+  - Access to modules to improve your server/project.
 
 Some of the modules to complement your server would include:
 
   - Basic security
-  - Advanced security
   - Load balancers
   - Monitoring
   - Concurrency/Requests control.
+  - Frameworks
+  - CI/CD Packages
+  - Databases
+  - Programming Languages
+  - Proxy Servers
+  - SCMs
+  - Extra stuff.
 
-We're cururrently developing the base of all this functionality but we're
-glad to say that it is coming soon.
+We're cururrently developing the base of all this functionality which is ready for
+**Beta testers**. Got to tinkerware.io and request and invite!
 
 All of this gets automated for your easier management (and ours too), that's
 why we will be adding more modules, features and cool stuff depending on how
 the users guide us.
 
 Feel free to contact us at hello@tinkerware.io and subscribe to our waiting list
-We're releasing Beta soon for you to manage your servers without headaches.
+
+
+Worry about servers no more.
+
+@aalvz
